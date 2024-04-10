@@ -30,4 +30,4 @@ This demo show you layers often used in real web structure (in Java):
 + DAO layer (Data Access Object): this layer is a gate to access data from Database when you mapped model in Database. CRUD(Create-Read-Update-Delete) operations are often used.
   
 + Service Layer: combine some operation in DAO layer to represent your business logic
-=> final use DI (Dependency Injection) these class to controller and perform your logic here (combine methods from Service Logics), when you deal with multiple service from multiple DAO Entity, please use transaction in Controller to wrap all of it.
+=> final use DI (Dependency Injection) these class to controller and perform your logic here (combine methods from Service Logics), transaction is apply here or above depends on context.
